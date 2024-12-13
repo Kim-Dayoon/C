@@ -1,0 +1,116 @@
+/*
+#include<stdio.h>
+int main()
+{
+	printf("태장초등학교\n");
+	printf("12살\n");
+	printf("김다윤 ") ;
+	return 0; 
+}
+*/
+
+/*
+#include<stdio.h>
+int main()
+{
+	printf("%d학년 %d반\n",5,1);
+	printf("%.2fcm %.2lfkg\n",160,40);
+	printf("나의 이름은 %s이고,혈액형은 %c입니다.","김다윤",'o');
+	return 0;
+		}
+*/
+
+/*
+#include<stdio.h>
+int main()
+{
+	printf("나는 %d살입니다.\n"2*6)
+	printf("나의 혈액형은 %d입니다.\n"'o')
+	return 0;
+}
+*/
+
+/*
+#include<stdio.h>
+int main()
+{
+	int grade=1;
+	int classs=5;
+	int number=23;
+	
+	printf("%d학년 %d반 %d번",grade,classs,number);
+	return 0;
+}
+*/
+
+/*
+#include<stdio.h>
+int main()
+{
+	printf("%d년 %d월 알파고 승리 \n",2016,3);
+	printf("%d %c프린터로 집짓기\n",3,'D');
+	printf("원주율은 %.2f\n",3.14);
+	printf("%.3fkm 마라톤\n",42.195);
+	return 0; 
+}
+*/
+
+/* 
+#include<stdio.h>
+int main()
+{
+	int year;
+	year=2024;
+	int month;
+	month=12;
+	int day;
+	day=13;
+	printf("%d년 %d월 %d일",year,month,day);
+	return 0;
+}
+*/
+
+/*
+#include<stdio.h>
+int main()
+{
+	int width=3;
+	int height=4;
+	printf("삼각형의 넓이는 %d입니다.",width*height/2);
+	return 0;
+ } 
+*/
+
+/*
+#include<stdio.h>
+int main()
+{
+	float r=4.5;
+	printf("원의 둘레는 %fcm\n",2*r*3.14);
+	printf("원의 넓이는 %fcm^2\n",r*r*3.14);
+	return 0;
+	 
+}
+*/
+ /*
+#include<stdio.h>
+int main()
+{
+	printf("%fkm입니다.",12378.0/1000.0);
+	return 0;
+}		
+*/
+	
+#include<stdio.h>
+int main()
+
+{
+	printf("%s %c %c %d는-약 %c %c %d년)는 고대그리스의 의사이다.","히포크라테스",'B','C',460,'B','C',370);
+	return 0;
+
+}
+	
+	
+	
+	
+	
