@@ -1,0 +1,78 @@
+/*
+#include <stdio.h>
+int main()
+{
+	int a;
+	float f1;
+	char ch;
+	a=15;
+	f1=123.456;
+	ch='A';
+	printf("%d\n",a);
+	printf("%f\n",f1);
+	printf("%c\n",ch);
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int num;
+	scanf("%d",&num);
+	printf("%d",num);
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	float eye_r;
+	float eye_l;
+	printf("양쪽 시력을 입력해주세요.: ");
+	scanf("%f %f",&eye_r,&eye_l);
+	printf("오른쪽 시력:%f\n왼쪽 시력;%f\n",eye_r,eye_l); 
+}
+*/
+/*
+#include <stdio.h>
+int main()
+
+{
+	int class_grade;
+	int class_room;
+	int class_number;
+	printf("학년,반,번호를 입력해주세요.: ");
+	scanf("%d %d %d",&class_grade,&class_room,&class_number);
+	printf("학년:%d 반:%d 번호:%d",class_grade,class_room,class_number) ;
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	float a_height;
+	int a_weight;
+	printf("키,몸무게를 입력하세요.: ");
+	scanf("%f %d",&a_height,&a_weight);
+	printf("키:%.1f cm\n몸무게:%dkg",a_height,a_weight); 
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int a_a;
+	int a_b;
+	printf("수 2개를 입력하세요.: ");
+	scanf("%d %d",&a_a,&a_b);
+	printf("%d+%d=%d\n%d-%d=%d\n%d*%d=%d\n%d/%d=%d",a_a,a_b,a_a+a_b,a_a,a_b,a_a-a_b,a_a,a_b,a_a*a_b,a_a,a_b,a_a/a_b);
+}
+*/
+#include <stdio.h>
+int main()
+{
+	char a; 
+	scanf("%c",&a);
+	printf("입력한 문자%c",a);
+	
+}
