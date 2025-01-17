@@ -1,0 +1,138 @@
+/*
+#include <stdio.h>
+int main()
+{
+	if(1)
+	{
+		printf("True\t참\n");
+		printf("응\t맞아\n");
+		
+	}
+	else
+	{
+		printf("False\t거짓\n");
+		printf("아니\t아니야\n");
+	} 
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	a=12;
+	b=56;
+	if(a>b)
+	{
+		printf("%d는 %d보다 크다.\n",a,b);
+	}
+	else
+	{
+		printf("%d는 %d보다 크지 않다.\n",a,b);
+	}
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int num;
+	printf("10000미만 정수 입력: ");
+	scanf("%d",&num);
+	if(num<10)
+	{
+		printf("한자리 수\n");
+	 } 
+	else if(num<100)
+	{
+		printf("두자리 수\n");
+	}
+	else if(num<1000)
+	{
+		printf("세자리 수\n");	
+	}
+	else if(num<10000)
+	{
+		printf("네자리 수\n");
+	}
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int num;
+	printf("정수 입력: ");
+	scanf("%d",&num);
+	if(num>0)
+	{
+		printf("%d는 양수입니다.",num);
+		
+	}
+	else 
+	{
+		printf("%d는 음수입니다.",num);
+	}
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int num;
+	printf("정수 입력: ");
+	scanf("%d",&num);
+	if(num%3==0)
+	{
+		printf("%d는 3의 배수입니다.",num);
+
+	 } 
+	else
+	{ 
+		printf("%d는3의 배수가 아닙니다.",num);
+	 } 
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int a;
+	int b;
+	printf("정수 입력: ");
+	scanf("%d",&a);
+	printf("정수 입력: ");
+	scanf("%d",&b);
+	if(a%b==0) 
+	{
+		printf("%d를 %d로 나누어집니다.",a,b);
+	}
+	else
+	{
+		printf("%d를 %d로 나누어지지 않습니다.",a,b);
+	}
+	
+}
+*/
+#include <stdio.h>
+int main()
+{
+	int a;
+	int b;
+	printf("정수 입력: ");
+	scanf("%d",&a);
+	printf("정수 입력: ");
+	scanf("%d",&b);
+	if(a%2==0&&b%2==0)
+	{
+		printf("%d와 %d의 곱은 %d입니다. ",a,b,a*b);
+	 } 
+	else if(a%2==1&&b%2==1)
+	{
+		printf("%d와 %d의 합은 %d입니다.",a,b,a+b);
+	 } 
+	 else
+	 {
+	 	printf("%d와 %d의 차는 %d 입니다.",a,b,a-b);
+	 }
+}
