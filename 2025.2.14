@@ -1,0 +1,107 @@
+
+#include <stdio.h>
+int main()
+{
+	int i;
+	int sum=0;
+	i=10;
+	while(i<=17)
+	{
+		printf("%d ",i);
+		sum+=i;
+		i++;
+	}
+	printf("%d ",sum);
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int i=1;
+	int sum=0;
+	int a=0;
+	while(i<=10)
+	{
+		if(i%2==0)
+		{
+			sum+=i;
+		}
+		else
+		{
+			a+=i;
+		}
+		i++;
+	}
+	printf("%d %d",sum,a);
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int score;
+	int a,b,c,d;
+	scanf("%d",&a);
+	scanf("%d",&b);
+	scanf("%d",&c);
+	scanf("%d",&d);
+	score =a+b+c+d;
+	printf("%d ",score);
+	
+	printf("%d ",score/4);
+	switch(score/10)
+	{
+	case 9:
+		printf("참 잘했어요.");
+		break;
+	case 8:
+		printf("잘했어요.");
+		break;
+	case 7:
+		printf("화이팅.");
+		break;
+	default:
+		printf("힘내요,할 수 있어요.");
+	}
+	return 0;
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int a=1;
+	int b;
+	int c=0;
+	while(a<=5)
+	{
+		scanf("%d",&b);
+		if(b>c)
+		{
+			c=b;
+			
+		}
+	
+		a++;
+	}
+	printf("%d ",c);
+}
+*/
+#include <stdio.h>
+int main()
+{
+	int n;
+	int count=0;
+	int sum;
+	a+=?
+	scanf("%d",&n);
+	while(n>0)
+	{
+		count++;
+		sum+=n;
+		n/=10;
+	}
+	printf("%d",count);
+	printf("%d",sum);
+}
