@@ -1,0 +1,138 @@
+/*
+#include <stdio.h>
+int main()
+{
+	int i;
+	int sum=0;
+	int ssum=0;
+	for(i=1;i<=10;i++)
+	{
+		if(i%2==0)
+		{
+			sum+=i;
+		}
+		else
+		{
+			ssum+=i;
+			
+		}
+		
+	}
+	
+	printf("%d ",sum);
+	printf("%d ",ssum);
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	for(int i=1;i<=100;i++)
+	{
+		int j;
+		for(j=1;j<=100;j++)
+		{
+			printf("%d ",j);
+		}
+	}
+
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	for(int i=1;i<=6;i++)
+	{
+		printf("%d학년 ",i);
+		for(int j=1;j<=7;j++)
+		{
+			printf("%d반 ",j);
+		}
+		printf("\n");	
+	}
+
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int i=6;
+	while(i>=1)
+	{
+		printf("%d학년 ",i);
+	
+		int j=1;
+		while(j<=7)
+		{
+			printf("%d반 ",j);
+			j++;
+		}
+		
+		printf("\n");
+		i--;
+    }
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	int i=1;
+	while(i<=6)
+	{
+		printf("%d학년 ",i);
+		for(int j=7;j>=1;j--)	
+		{
+			printf("%d반 ",j);
+		}
+		printf("\n");
+		i++;	
+		
+	}
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	for(int i=1;i<=5;i++)
+	{
+		for(int j=1;j<=i;j++)	
+		{
+			printf("%d ",j);
+		}
+		printf("\n");
+	}
+}
+*/
+/*
+#include <stdio.h>
+int main()
+{
+	for(int i=5;i>=1;i--)
+	{
+		for(int j=i;j>=1;j--)	
+		{
+			printf("%d ",j);
+		}
+		printf("\n");
+	}
+}
+*/
+#include <stdio.h>
+int main()
+{
+	for(int i=5;i>=1;i--)
+	{
+		for( int j=1;j<=i;j++)
+		{
+			printf("  ");
+		}
+		for(int j=6-i;j>=1;j--)	
+		{
+			printf("%d ",j);
+		}
+		printf("\n");
+	}
+}
