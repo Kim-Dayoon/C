@@ -1,0 +1,36 @@
+/*
+#include <stdio.h>
+int main()
+{
+	int n;
+	int i=0;
+	printf("입력 : ");
+	scanf("%d",&n);
+	while(n)
+	{
+		n=n/10;
+		i++;
+	
+		
+		
+	
+	}
+	printf("%d자리수입니다.",i);
+}
+*/
+
+
+#include <stdio.h>
+int main()
+{
+	for(int i=1;i<=6;i++)
+	{
+		printf("%d학년       ",i);
+		for(int j=1;j<=7;j++)
+		{
+			printf("%d반  ",j);
+		}
+		printf("\n");
+	}
+
+}
