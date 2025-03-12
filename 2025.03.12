@@ -1,0 +1,144 @@
+/*
+#include<stdio.h>
+int main()
+{
+	int a[100];
+	for(int i=0;i<5;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+		for(int i=0;i<5;i++)
+	{
+		printf("%d ",a[i]);
+	}
+	
+}
+*/
+/*
+#include<stdio.h>
+int main()
+{
+	char ch1,ch2;
+	ch1='A';
+	ch2='a';
+	ch1=ch1+32;
+	ch2=ch2-32;
+	printf("ch1:%c ",ch1);
+	printf("ch2:%c ",ch2);
+	
+	
+}
+*/
+/*
+#include<stdio.h>
+int main()
+{
+	char ch;
+	printf("문자를 입력하세요: ");
+	ch=getchar();
+	putchar(ch);
+	printf("%c %d\n",ch,ch);
+	return 0; 
+}
+*/
+/*
+#include<stdio.h>
+int main()
+{
+
+	char name[100];
+	scanf("%s",name);
+	int i=0;
+	while(name[i]!='\0')
+	{
+		name[i]=name[i]-32;
+		i++;
+	}
+	printf("%s님 안녕하세요?",name);
+	int j=0;
+	while(name[j]!='\0')
+	{
+		printf("%c",name[j]);
+		j++;
+	}
+}
+*/
+/*
+#include<stdio.h>
+int main()
+{
+	char word[20];
+	printf("단어를 입력하세요: ");
+	gets(word); 
+	printf("입력하신 단어는 %s입니다.",word);
+	return 0;
+}
+*/
+/*
+#include<stdio.h>
+int main()
+{
+	int a;
+	char c;
+	scanf("%c",&c);
+	if('a'<=c && c<='z')
+	{
+		printf("%c",c-32);	
+	}
+    else if('A'<=c && c<='Z')
+	{
+		printf("%c",c+32);
+	}
+	
+}
+*/
+/*
+#include<stdio.h>
+int main()
+{
+	for(int i='A';i<='Z';i++)
+	{
+		printf("%c ",i);
+	}
+		for(int j='a';j<='z';j++)
+	{
+		printf("%c ",j);
+	}
+}
+*/
+/*
+#include<stdio.h>
+int main()
+{
+	char word[100];
+	printf("단어를 입력하세요: ");
+	scanf("%s",word);
+	int i=0;
+	while(word[i]!='\0')
+	{
+		word[i]-=32;
+		i++;
+	}
+	printf("%s",word);
+	printf("입력하신 단어는 %s입니다.",word);
+	return 0;
+}
+*/
+#include<stdio.h>
+int main()
+{
+	char word[20];
+	printf("문장을 입력하세요: ");
+	gets(word); 
+	int i=0;
+	int count=1;
+	while(word[i]!='\0')
+	{
+		if(word[i]==32)
+		{
+			count++;
+		}
+		i++;
+	}
+	printf("%d",count);
+}
