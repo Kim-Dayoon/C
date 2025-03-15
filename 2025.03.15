@@ -1,0 +1,46 @@
+
+/*#include<stdio.h>
+int main()
+{
+	char i;
+	scanf("%c",&i);
+	if('a'<= i && i <= 'z')
+	{
+		printf("%c",i-32);
+	}
+	if('A'<= i && i <= 'Z')
+	{
+		printf("%c",i+32);
+	}
+	
+	
+}*/
+/*#include<stdio.h>
+int main()
+{
+	char asd[100];
+	scanf("%s",&asd);
+	int i=0;
+	while(asd[i]!='\0')
+	{
+		asd[i]-=32;
+		i++;
+	}
+	printf("%s",asd);
+	return 0;
+	
+}
+*/
+#include <stdio.h>
+int main()
+{
+	char word[6];
+	scanf("%s",&word);
+	
+	for(int i=4;i>=0;i--)
+	{
+		printf("%c",word[i]);
+	}
+	
+	return 0;
+}
