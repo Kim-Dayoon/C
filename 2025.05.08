@@ -1,0 +1,53 @@
+/*#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	scanf("%d",&a);
+	printf("a=%d\n",a);
+	scanf("%d%d",&a,&b);
+	printf("a=%d b=%d\n",a,b);
+	scanf("%d%d%d",&a,&b,&c);
+	printf("a=%d b=%d c=%d\n",a,b,c);
+	return 0;
+}*/
+/*#include<stdio.h>
+int main()
+{
+	char ch,ca,cr;
+	scanf("%c",&ch);
+	printf("ch=%c ch=%d\n",ch,ch);
+	scanf("%c%c",&ch,&ca);
+	printf("ch=%c ch=%d\n",ch,ch);
+	printf("ch=%c ch=%d\n",ca,ca);
+	scanf("%c%c%c",&ch,&ca,&cr);
+	printf("ch=%c ch=%d\n",ch,ch);
+	printf("ch=%c ch=%d\n",ca,ca);
+	printf("ch=%c ch=%d\n",cr,cr);
+	return 0;
+
+}*/
+/*#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int n=0;
+	while(1)
+	{
+		printf("%d%c",n,13);
+		n++;
+	}
+	return 0;
+}*/
+/*#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	char c;
+	while(1)
+	{
+		c=getchar();
+		if(c==10)break;
+		if(c>64&&c<92||c>96&&c<123)
+
+		putchar(c);
+}*/
